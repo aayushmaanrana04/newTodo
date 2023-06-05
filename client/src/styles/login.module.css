@@ -1,0 +1,38 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background: var(--dark);
+    border-radius: 10px;
+    gap: 1em;
+    margin: auto;
+}
+
+.form input{
+    padding: 1em;
+    font-size: 18px;
+    outline: none;
+}
+
+.form button{
+    padding: 1em;
+    font-size: 18px;
+    outline: none;
+
+}
+
+.form button:hover{
+    background: orange;
+}
+
+.bottomtext{
+    font-size: 20px;
+    color: white;
+}
+
+.link{
+    margin-left: auto;
+    
+}
+
